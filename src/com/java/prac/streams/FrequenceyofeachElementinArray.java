@@ -14,5 +14,6 @@ public class FrequenceyofeachElementinArray {
                 .collect(Collectors.groupingBy(Function.identity(),
                         LinkedHashMap::new,
                         Collectors.counting()));
+        System.out.println(m1);
     }
 }
